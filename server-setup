@@ -1,0 +1,14 @@
+apache:
+sudo a2enmod rewrite
+
+php:
+
+
+mysql
+
+vhost:
+
+laravel:
+composer install
+php artisan storage:link
+php artisan migrate
